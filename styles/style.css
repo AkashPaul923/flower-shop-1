@@ -273,4 +273,54 @@ margin-bottom: 48px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 24px;
+    align-items: center;
+}
+
+/* deals section style */
+.deals{
+    background-image: url(../asset/image/Rectangle\ 9.png);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin: 0px 240px 128px;
+    text-align: center;
+}
+.deals h3{
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 122px;
+}
+
+.deals p{
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 16px;
+margin-bottom: 48px;
+}
+
+.deals input{
+    border-radius: 8px;
+border: none;
+background: rgb(255, 255, 255);
+padding: 23px 513px 22px 22px;
+margin-bottom: 121px;
+color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+margin-right: 16px;
+
 }
