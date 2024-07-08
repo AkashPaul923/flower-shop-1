@@ -162,3 +162,78 @@ text-decoration-line: underline;
 margin-top: 32px;
 
 }
+
+
+/* support section style */
+.supports{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+
+    background: rgba(39, 39, 39, 0.05);
+    margin: 128px 220px;
+    padding: 86px 150px;
+    gap: 100px;
+}
+.support{
+    text-align: center;
+}
+
+.supports p{
+    color: rgba(39, 39, 39, 0.8);
+font-family: Lato;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 28px ;
+}
+
+
+
+/* sales section style */
+
+.sales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 186px;
+    border-radius: 8px;
+    margin-bottom: 128px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.sales-contant{
+    
+    text-align: center;
+    padding-left: 395px;
+    width: 50%;
+    
+}
+.sales-title{
+    font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+
+}
+.sales-subtitle{
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 25px;
+margin-bottom: 32px;
+}
+.sales-image{
+    
+    width: 50%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
