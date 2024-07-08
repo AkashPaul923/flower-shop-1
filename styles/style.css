@@ -11,6 +11,9 @@
 body{
     font-family: "Lato", sans-serif;
 }
+.color-1{
+    color: rgb(229, 84, 115);
+}
 
 .button{
     color: rgb(255, 255, 255);
@@ -323,4 +326,41 @@ letter-spacing: 0%;
 text-align: center;
 margin-right: 16px;
 
+}
+
+/* footer style */
+footer{
+    text-align: center;
+    
+    background: rgb(17, 16, 16);
+}
+footer h1{
+    font-family: Lato;
+font-size: 48px;
+font-weight: 800;
+line-height: 58px;
+letter-spacing: 0%;
+color: rgb(255, 255, 255);
+padding-top: 128px;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.9);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+width: 32%;
+margin: 32px auto;
+}
+.footer-copyright{
+    color: rgba(255, 255, 255, 0.4);
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+padding-bottom: 128px;
 }
